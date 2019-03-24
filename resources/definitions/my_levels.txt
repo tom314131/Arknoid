@@ -1,0 +1,75 @@
+# Level 1
+
+
+START_LEVEL
+level_name:Dragon Ball
+ball_velocities:0,400 
+background:image(background_images/dragonball_background.jpg)
+paddle_speed:650
+paddle_width:80
+block_definitions:definitions/dragon_ball_block_definitions.txt
+blocks_start_x:300
+blocks_start_y:80
+row_height:250
+num_blocks:12
+START_BLOCKS
+
+d
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+
+
+START_LEVEL
+level_name:Pokemon
+ball_velocities:0,400 45,400 -45,400
+background:image(background_images/pokemon.png)
+paddle_speed:650
+paddle_width:200
+block_definitions:definitions/pokemon_block_definitions.txt
+blocks_start_x:75
+blocks_start_y:80
+row_height:250
+num_blocks:12
+START_BLOCKS
+
+
+b-c-s
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 3
+
+
+START_LEVEL
+level_name:DUA LIPA
+ball_velocities:45,400 0,400 -45,400 
+background:image(background_images/dualipa.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/dua_lipa_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:23
+num_blocks:150
+START_BLOCKS
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+-drddddddrrrrdddrrrrrdddddrdddd-
+-drdddddddrrddddrdddrddddrdrddd-
+-drdddddddrrddddrrrrrdddrrrrrdd-
+-drdddddddrrddddrddddddrrdddrrd-
+-drrrrrddrrrrdddrdddddrrdddddrr-
+
+END_BLOCKS
+END_LEVEL

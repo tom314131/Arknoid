@@ -1,0 +1,8 @@
+# default values for blocks
+default height:250 width:200 stroke:color(black)
+
+# block definitions
+bdef symbol:d hit_points:7 fill:image(block_images/ultraBlock.png) fill-2:image(block_images/blue.png) fill-3:image(block_images/red.png) fill-4:image(block_images/super3.png) fill-5:image(block_images/super2.png) fill-6:image(block_images/super1.png) fill-7:image(block_images/goku.png)
+
+# spacers definitions
+sdef symbol:- width:200

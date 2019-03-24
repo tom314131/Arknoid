@@ -1,0 +1,10 @@
+# default values for blocks
+default height:200 width:200 stroke:color(black)
+
+# block definitions
+bdef symbol:c hit_points:4 fill:image(block_images/charizard.png) fill-2:image(block_images/Charmeleon.png) fill-3:image(block_images/charmander.png) fill-4:image(block_images/pokadur.png)
+bdef symbol:s hit_points:4 fill:image(block_images/venusaur.png) fill-2:image(block_images/ivysaur.png) fill-3:image(block_images/balbasour.png) fill-4:image(block_images/pokadur.png)
+bdef symbol:b hit_points:4 fill:image(block_images/blastoise.png) fill-2:image(block_images/Wartortle.png) fill-3:image(block_images/squirtle.png) fill-4:image(block_images/pokadur.png)
+
+# spacers definitions
+sdef symbol:- width:25
